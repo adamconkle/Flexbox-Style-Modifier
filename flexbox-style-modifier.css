@@ -1,0 +1,41 @@
+body {
+  font-family: Monserrat, Arial, sans-serif;
+  display: flex;
+  align-content: center;
+}
+
+#leftside {
+  display: flex;
+  align-content: left;
+  max-width: 40%;
+}
+
+#exampleArea {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #121212;
+  border-radius: 8px;
+  display: flex;
+  align-content: center;
+  background-color: #efefef;
+  flex-flow: row wrap;
+}
+
+#boxes {
+  height: 50px;
+  width: 50px;
+  background-color: #00848b;
+  border: .5px solid white;
+  border-radius: 8px;
+}
+
+p {
+  font-weight: bold;
+}
+
+button {
+  border: none;
+  border-radius: 32px;
+  padding: 12px;
+  margin: 2px;
+}
